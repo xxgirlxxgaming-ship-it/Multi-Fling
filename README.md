@@ -1,11 +1,6 @@
--- ================================
--- ADVANCED KEY SYSTEM (CLIENT)
--- Blocks hub until key is verified
--- Remembers key after first redeem
--- ================================
 
 -- Public config
-local DISCORD_LINK = "https://discord.gg/M3fzBAyBGY" -- where players get key
+local DISCORD_LINK = "https://discord.gg/BhXZzkPGYk" -- where players get key
 
 
 local _kA = {119, 105, 110}   -- 'w','i','n'
@@ -57,7 +52,6 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 
--- Global flag for your hub
 _G.DESTINY_KEY_VERIFIED = false
 
 -- Key helpers
